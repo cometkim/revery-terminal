@@ -32,6 +32,7 @@
     "isolinear": "*"
   },
   "resolutions": {
+    "brisk-reconciler": "briskml/brisk-reconciler#34e5991",
     "isolinear": "link:../isolinear",
     "revery": "link:../revery",
     "esy-libvterm": "link:../esy-libvterm",
