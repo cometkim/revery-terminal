@@ -21,13 +21,11 @@ module TerminalView = {
     let%hook (springyCursorLeft, _setCursorRowImmediately) =
       Hooks.spring(
         ~target=cursorLeft,
-        ~restThreshold=10.0,
         stiffSpring,
       );
     let%hook (springyCursorTop, _setCursorTopImmediately) =
       Hooks.spring(
         ~target=cursorTop,
-        ~restThreshold=10.0,
         stiffSpring,
       );
       
