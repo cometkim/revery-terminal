@@ -32,9 +32,7 @@
     "isolinear": "^3.0.0"
   },
   "resolutions": {
-    "@brisk/brisk-reconciler": "link:../brisk-reconciler",
-    "isolinear": "link:../isolinear",
-    "revery": "link:../revery",
+    "revery": "revery-ui/revery#5438851",
     "reason-libvterm": "revery-ui/reason-libvterm#974b81c",
     "@esy-ocaml/libffi": "esy-ocaml/libffi#c61127d",
     "@opam/cmdliner": "1.0.2",
